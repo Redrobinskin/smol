@@ -1,0 +1,41 @@
+{
+  "name": "movie-review-website",
+  "version": "1.0.0",
+  "description": "A JAMstack website for movie reviews",
+  "main": "src/pages/index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby start",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-json": "^3.0.0",
+    "gatsby-plugin-react-helmet": "^4.0.0",
+    "gatsby-plugin-sitemap": "^3.0.0",
+    "gatsby-plugin-robots-txt": "^1.6.2",
+    "gatsby-plugin-netlify-cms": "^5.0.0",
+    "netlify-cms-app": "^2.15.20",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5"
+  },
+  "keywords": [
+    "gatsby",
+    "react",
+    "JAMstack",
+    "movie",
+    "review",
+    "SEO"
+  ],
+  "author": "",
+  "license": "ISC"
+}
